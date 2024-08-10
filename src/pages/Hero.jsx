@@ -1,10 +1,12 @@
 import { motion } from "framer-motion"
+import herobg from '../assets/Backgrounds/Herobg.png'
 
 export default function Hero() {
   return (
     <motion.div 
         id='hero-page' 
         className="w-full h-[100vh] bg-black flex flex-col items-center justify-center"
+        style={{ backgroundImage: `url(${herobg})` }}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}

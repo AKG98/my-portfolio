@@ -8,7 +8,7 @@
 }
 /* App.css */
 #hero-page {
-    background-image: url('./assets/backgrounds/Herobg.png');
+    /* background-image: url('./assets/backgrounds/Herobg.png'); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
