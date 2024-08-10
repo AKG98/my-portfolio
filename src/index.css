@@ -5,3 +5,6 @@
 body{
   cursor: url(./assets/Backgrounds/cursor.png), auto;
 }
+::-webkit-scrollbar{
+  display: none;
+}
