@@ -8,6 +8,7 @@ import Contact from "./pages/Contact"
 export default function App() {
   return (
     <>
+
      <Hero/> 
      <About/>
      <Skills/>

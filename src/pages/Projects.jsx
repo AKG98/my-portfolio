@@ -39,19 +39,33 @@ export default function Projects() {
             emulateTouch
             stopOnHover
           >
-            <div className="rounded-lg overflow-hidden">
-              <img src={project1} />
+            <div 
+              className="rounded-lg overflow-hidden" 
+              onClick={() => window.open("https://my-portfolio-fbsq.onrender.com", "_blank")}
+              style={{ cursor: "pointer" }}
+              >
+              <img src={project1} alt="Project 1"/>
+
 
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div 
+              className="rounded-lg overflow-hidden" 
+              onClick={() => window.open("https://invocify-client.onrender.com", "_blank")}
+              style={{ cursor: "pointer" }}>
               <img src={project2} />
 
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div 
+              className="rounded-lg overflow-hidden" 
+              onClick={() => window.open("https://akg98.github.io/web-smith/", "_blank")}
+              style={{ cursor: "pointer" }}>
               <img src={project3} />
 
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div 
+              className="rounded-lg overflow-hidden" 
+              style={{ cursor: "pointer" }}
+              >
               <img src={project4} />
 
             </div>
