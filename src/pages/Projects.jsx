@@ -50,7 +50,7 @@ export default function Projects() {
             </div>
             <div 
               className="rounded-lg overflow-hidden" 
-              onClick={() => window.open("https://invocify-client.onrender.com", "_blank")}
+              onClick={() => window.open("https://invocify-modern-invoicing.onrender.com", "_blank")}
               style={{ cursor: "pointer" }}>
               <img src={project2} />
 
