@@ -29,7 +29,7 @@ export default function SocialIcons() {
       <motion.a href="mailto:avinashakg1998@gmail.com" target="_blank" initial="hidden" animate="visible">
         <motion.img src={gIcon} alt="" variants={harmonicMotion} />
       </motion.a>
-      <motion.a href="https://www.linkedin.com/in/avinash-kumar-gupta-ab8342203" target="_blank" initial="hidden" animate="visible">
+      <motion.a href="https://www.linkedin.com/in/avinash-gupta-ab8342203" target="_blank" initial="hidden" animate="visible">
         <motion.img src={linkIcon} alt="" variants={harmonicMotion} />
       </motion.a>
       <motion.a href="https://github.com/AKG98" target="_blank" initial="hidden" animate="visible">
